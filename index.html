@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>canvas</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <span>CodeJam - Pallete</span>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="col-3">
+                <div class="tools">
+                    <div class="tools_pannel">
+                        <div class="tools_item">
+                            <img src="./assets/icon-share.svg" alt="color-bucket" />
+                            <span>Paint bucket</span>
+                        </div>
+                        <div class="tools_item">
+                            <img src="./assets/eye-dropper.svg" alt="eye-dropper" />
+                            <span>Choose color</span>
+                        </div>
+                    </div>
+                    <div class="tools_pannel">
+                        <div class="tools_item">
+                            <img src="./assets/icon-copy.svg" alt="move" />
+                            <span>Move</span>
+                        </div>
+                        <div class="tools_item last">
+                            <img src="./assets/icon.svg" alt="transform" />
+                            <span>Transform</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tools">
+                    <div class="tools_pannel">
+                        <div class="tools_item">
+                            <img src="./assets/gray.svg" alt="gray-dot" />
+                            <span>Current color</span>
+                        </div>
+                        <div class="tools_item">
+                            <img src="./assets/green.svg" alt="green-dot" />
+                            <span>Prev color</span>
+                        </div>
+                    </div>
+                    <div class="tools_pannel">
+                        <div class="tools_item">
+                            <img src="./assets/red.svg" alt="red-dot" />
+                            <span>red</span>
+                        </div>
+                        <div class="tools_item last">
+                            <img src="./assets/blue.svg" alt="blue-dot" />
+                            <span>blue</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-7">
+                <canvas id="canvas" width="512" height="512"></canvas>
+            </div>
+
+            <div class="col-2">
+                <div class="tools buttons">
+                    <div class="tools_item">
+                        <a class="redraw" data-size="4">4x4</a>
+                    </div>
+                    <div class="tools_item">
+                        <a class="redraw" data-size="32">32x32</a>
+                    </div>
+                    <div class="tools_item">
+                        <a class="redraw" data-size="256">256x256</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts-->
+        <script src=""></script>
+        <script src=""></script>
+</body>
+
+</html>
