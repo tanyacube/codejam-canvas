@@ -1,0 +1,74 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 48px;
+    width: 100%;
+}
+
+.row {
+margin: 0;
+}
+
+.navbar  {
+    background: none;
+    justify-content: initial;
+    padding: 0;
+    height: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.navbar-toggler:focus {
+    outline:0;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('./images/menu.svg');
+
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+.tools {
+    width: 80%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    margin: 40px auto;
+}
+
+.tools .tools_pannel {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    
+}
+
+.tools .tools_pannel .last{
+    padding-bottom: 20px;
+}
+
+.tools_item {
+    line-height: 52px;
+}
+
+.tools_item img {
+    margin: 0 20px
+}
+
+canvas {
+    position: absolute;
+    left: 50%;
+    margin-left: -256px;
+    top: 40px;
+}
+
+.buttons .tools_item:hover {
+    background: #B3B3B3;
+    cursor: pointer;
+}
+.buttons .tools_item .redraw {
+    width: 100%;
+    display: inline-block;
+    padding-left: 20px;
+}
